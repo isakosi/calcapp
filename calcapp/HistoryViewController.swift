@@ -8,9 +8,7 @@
 import UIKit
 
 class HistoryViewController: UIViewController {
-    
     var sum = 0
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         

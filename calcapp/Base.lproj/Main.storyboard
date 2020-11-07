@@ -66,7 +66,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Show History"/>
                                 <connections>
-                                    <action selector="resShower:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qth-Cl-TgL"/>
+                                    <action selector="handleResShower:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ma4-01-pgR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -89,10 +89,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="vfW-PA-KIn"/>
                     <connections>
+                        <outlet property="Sum" destination="l67-kB-48Z" id="jaZ-6n-d1Q"/>
                         <outlet property="int1" destination="utR-aU-xuj" id="lXt-11-jd3"/>
                         <outlet property="int2" destination="cnj-o9-vPC" id="ehd-3Q-hSR"/>
                         <outlet property="sum" destination="l67-kB-48Z" id="7Zf-kO-uY5"/>
-                        <outlet property="sumButt" destination="D8V-jF-Xj5" id="Bzx-In-uDh"/>
                         <segue destination="6pO-r9-URX" kind="show" identifier="resShower" id="9U5-7V-gwB"/>
                     </connections>
                 </viewController>
@@ -124,7 +124,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="yCK-TF-sOy"/>
                     <connections>
-                        <outlet property="resLabel" destination="ZD8-nx-9VY" id="NNz-A7-xGI"/>
+                        <outlet property="resLabel" destination="ZD8-nx-9VY" id="k1g-m1-TKs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xIB-D0-JNE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
