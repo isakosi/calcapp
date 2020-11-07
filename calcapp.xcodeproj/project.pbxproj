@@ -15,6 +15,7 @@
 		4EBBF6DD255733B7006C7CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBBF6DB255733B7006C7CEC /* LaunchScreen.storyboard */; };
 		4EBBF6E8255733B7006C7CEC /* calcappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBBF6E7255733B7006C7CEC /* calcappTests.swift */; };
 		4EBBF6F3255733B7006C7CEC /* calcappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBBF6F2255733B7006C7CEC /* calcappUITests.swift */; };
+		4EBBF708255742A5006C7CEC /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBBF707255742A5006C7CEC /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4EBBF6EE255733B7006C7CEC /* calcappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calcappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBBF6F2255733B7006C7CEC /* calcappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcappUITests.swift; sourceTree = "<group>"; };
 		4EBBF6F4255733B7006C7CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EBBF707255742A5006C7CEC /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4EBBF6D9255733B7006C7CEC /* Assets.xcassets */,
 				4EBBF6DB255733B7006C7CEC /* LaunchScreen.storyboard */,
 				4EBBF6DE255733B7006C7CEC /* Info.plist */,
+				4EBBF707255742A5006C7CEC /* HistoryViewController.swift */,
 			);
 			path = calcapp;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				4EBBF6D5255733B3006C7CEC /* ViewController.swift in Sources */,
 				4EBBF6D1255733B3006C7CEC /* AppDelegate.swift in Sources */,
 				4EBBF6D3255733B3006C7CEC /* SceneDelegate.swift in Sources */,
+				4EBBF708255742A5006C7CEC /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
